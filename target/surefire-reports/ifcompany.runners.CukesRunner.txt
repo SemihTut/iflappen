@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: ifcompany.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ifcompany.runners.CukesRunner
+initializationError(ifcompany.runners.CukesRunner)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class io.cucumber.junit.JUnitCucumberOptionsProvider$JunitCucumberOptions does not define or inherit an implementation of the resolved method abstract tags()[Ljava/lang/String; of interface io.cucumber.core.options.CucumberOptionsAnnotationParser$CucumberOptions.
+
