@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
                 },
         features = "src/test/resources/features/",
         glue = "ifcompany/StepDefinitions",
-        dryRun = true
+        tags = "@smoke",
+        dryRun = false
 
 
         )

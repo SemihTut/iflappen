@@ -16,11 +16,11 @@ public class Hooks {
     public void setUp(){
         System.out.println("\tthis is coming from BEFORE");
 
-        String browser = ConfigurationReader.get("browser");
+      /*  String browser = ConfigurationReader.get("browser");
        if(!browser.contains("mobile")){
         Driver.get().manage().window().maximize();
        }
-        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 
     }
 
@@ -33,7 +33,7 @@ public class Hooks {
             scenario.attach(screenshot,"image/png","screenshot");
         }*/
 
-        Driver.closeDriver();
+
     }
 
 

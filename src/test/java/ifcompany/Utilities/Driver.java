@@ -87,7 +87,7 @@ public class Driver {
                     desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.CHROME);
                     desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
                     try {
-                        driverPool.set(new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"),desiredCapabilities));
+                        driverPool.set(new RemoteWebDriver(new URL("http://hub.browserstack.com/wd/hub"),desiredCapabilities));
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }

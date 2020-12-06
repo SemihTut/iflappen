@@ -31,18 +31,31 @@
             <version>5.7.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.3.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>6.2.2</version>
-        </dependency>
 
+
+
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
@@ -59,7 +72,6 @@
                     <runOrder>Alphabetical</runOrder>
                     <includes>
                         <include>**/*CukesRunner.java</include>
-                        <include>**/*FailedTestRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
