@@ -1,5 +1,6 @@
 C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\Utilities\Driver.java
 C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\Utilities\ConfigurationReader.java
-C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\StepDefinitions\InstallMobileApp.java
+C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\StepDefinitions\InstallMobileAppStepDefinition.java
+C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\Utilities\SettingUpDevice.java
 C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\runners\CukesRunner.java
 C:\Users\yalaa\MobileAutomationFramework-master\IFMobileApp\src\test\java\ifcompany\StepDefinitions\Hooks.java

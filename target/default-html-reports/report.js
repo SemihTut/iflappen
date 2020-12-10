@@ -39,11 +39,63 @@ formatter.examples({
     },
     {
       "cells": [
+        "Google Nexus 6",
+        "5.0"
+      ]
+    },
+    {
+      "cells": [
         "Google Pixel 3",
         "9.0"
       ]
     }
   ]
+});
+formatter.scenario({
+  "name": "Installation of the app into different devices Google Nexus 6 5.0",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user has an internet connection",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_has_an_internet_connection()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user install the app to the device \"Google Nexus 6\" and \"5.0\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_install_the_app_to_the_device_and(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should see app in the phone menu",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_should_see_app_in_the_phone_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Installation of the app into different devices Google Pixel 3 9.0",
@@ -74,4 +126,21 @@ formatter.step({
 });
 formatter.match({
   "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_install_the_app_to_the_device_and(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should see app in the phone menu",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_should_see_app_in_the_phone_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });

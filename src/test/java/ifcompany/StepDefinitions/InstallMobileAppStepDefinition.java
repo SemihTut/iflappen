@@ -23,7 +23,8 @@ public class InstallMobileAppStepDefinition {
     }
 
     @Then("the user should see app in the phone menu")
-    public void the_user_should_see_app_in_the_phone_menu() {
+    public void the_user_should_see_app_in_the_phone_menu() throws InterruptedException {
+        Thread.sleep(2000);
         System.out.println("App is installed");
         driver.quit();
     }

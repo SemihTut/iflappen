@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-10T00:33:00.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ifcompany.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Installation of the app into different devices Google Nexus 6 5.0",
+        "description": "",
+        "id": "rookie-driver-native-app-installation;installation-of-the-app-into-different-devices-\u003cmodel\u003e-\u003cversion\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "ifcompany.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user has an internet connection",
+            "match": {
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_has_an_internet_connection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98542408100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user install the app to the device \"Google Nexus 6\" and \"5.0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google Nexus 6\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"5.0\"",
+                  "offset": 60
+                }
+              ],
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_install_the_app_to_the_device_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1217638300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see app in the phone menu",
+            "match": {
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_should_see_app_in_the_phone_menu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T00:34:40.237Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "ifcompany.StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Installation of the app into different devices Google Pixel 3 9.0",
+        "description": "",
+        "id": "rookie-driver-native-app-installation;installation-of-the-app-into-different-devices-\u003cmodel\u003e-\u003cversion\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "ifcompany.StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user has an internet connection",
+            "match": {
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_has_an_internet_connection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31064485200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user install the app to the device \"Google Pixel 3\" and \"9.0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google Pixel 3\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"9.0\"",
+                  "offset": 60
+                }
+              ],
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_install_the_app_to_the_device_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327941300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see app in the phone menu",
+            "match": {
+              "location": "ifcompany.StepDefinitions.InstallMobileAppStepDefinition.the_user_should_see_app_in_the_phone_menu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Rookie Driver Native App Installation",
+    "description": "",
+    "id": "rookie-driver-native-app-installation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/InstallApp.feature",
+    "tags": []
+  }
+]

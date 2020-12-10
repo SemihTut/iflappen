@@ -7,10 +7,9 @@ Feature: Rookie Driver Native App Installation
     Then the user should see app in the phone menu
 
 
-
     Examples:
       | model                  | version |
-    #  | Samsung Galaxy S9 Plus | 8.0     |
+      | Samsung Galaxy S9 Plus | 8.0     |
     #  | Samsung Galaxy Note 8  | 7.1     |
     #  | Google Nexus 6         | 5.0     |
-      | Google Pixel 3         | 9.0     |
+    #  | Google Pixel 3         | 9.0     |
