@@ -1,4 +1,4 @@
-package ifcompany.runners;
+package If.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"
                 },
         features = "src/test/resources/features/",
-        glue = "ifcompany/StepDefinitions",
+        glue = "If/StepDefinitions",
         tags = "@smoke",
         dryRun = false
 

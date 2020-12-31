@@ -1,4 +1,4 @@
-package ifcompany.Utilities;
+package If.Utilities;
 
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.WebDriverManager;

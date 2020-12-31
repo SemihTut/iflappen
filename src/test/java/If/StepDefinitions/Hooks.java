@@ -1,13 +1,9 @@
-package ifcompany.StepDefinitions;
+package If.StepDefinitions;
 
 
-import ifcompany.Utilities.ConfigurationReader;
-import ifcompany.Utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-
-import java.util.concurrent.TimeUnit;
 
 
 public class Hooks {

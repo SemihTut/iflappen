@@ -1,6 +1,6 @@
-package ifcompany.StepDefinitions;
+package If.StepDefinitions;
 
-import ifcompany.Utilities.SettingUpDevice;
+import If.Utilities.SettingUpDevice;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.cucumber.java.en.Given;

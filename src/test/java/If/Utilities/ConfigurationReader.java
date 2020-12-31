@@ -1,4 +1,4 @@
-package ifcompany.Utilities;
+package If.Utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
